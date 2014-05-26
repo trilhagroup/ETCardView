@@ -43,7 +43,9 @@ If you are going to load it from a nib, just load a standard `UIView` from the e
 
 Programmatically, just alloc it and set its frame:
 
-`[[ETCardView alloc] initWithFrame:CGRectMake(0.0, 0.0, 280.0, 140.0)];`
+```
+[[ETCardView alloc] initWithFrame:CGRectMake(0.0, 0.0, 280.0, 140.0)];
+```
 
 As you can see, the ideal format for this view is 280x140, but you are free to resize it to any size you want.
 
